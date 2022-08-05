@@ -34,6 +34,7 @@ const ternaryCheckCity = (str) => {
 // 1) should return "Thank you so much." if the tip is generous
 // 2) should return "Thank you." if the tip is not as generous:
 // 3) should return "Bye." if anything else => default
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 const switchOnCharmFromTip = (tip) => {
   switch (tip) {
     case "generous" :
